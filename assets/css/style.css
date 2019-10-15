@@ -1,7 +1,17 @@
 body {
     background-color: #f3f6fb;
-    min-height: 100%;
-    margin: 0;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
 }
 
 /* .name {
@@ -42,7 +52,7 @@ footer {
 position: absolute;
 text-align: center;
 background-color: #afc3e1;
-z-index: 1;
+
 bottom:0;
 width:100%;
 border-top: solid black;
